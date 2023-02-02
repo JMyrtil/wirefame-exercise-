@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: beige;
+}
+
+main {
+  background-color: turquoise;
+  width: 960px;
+  margin: 30px auto 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer {
+  background-color: aquamarine;
+
+}
+
+main img {
+  margin-bottom: 30px;
+}
+
+article {
+  width: 450px;
+}
+
+article section {
+  overflow: auto;
+}
