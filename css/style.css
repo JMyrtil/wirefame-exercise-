@@ -4,7 +4,49 @@
 
 header {
   background-color: beige;
+  margin: auto;
 }
+
+header nav {
+  margin: auto;
+  width: 960px;
+  height: 100px;
+  display: flex; justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  width: 200px;
+  height: auto;
+}
+
+header ul {
+  width: 730px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul li {
+  width: 150px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+
+header nav ul {
+  width: 730px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+
 
 main {
   background-color: turquoise;
@@ -14,6 +56,14 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section p {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 footer {
